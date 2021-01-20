@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: whitesmoke;
+}
+.portfolio{
+    display: flex;
+    justify-content: center;
+    background-color: skyblue;
+    width: 100%;
+    height: 14vh;
+}
+.portfolio h2{
+    margin-top: 25px;
+    font-size:large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+.box{
+    border: 3px solid skyblue;
+    border-radius: 30px;
+    background-color: white;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    height: 550px;
+    margin-left: 360px;
+    margin-top: 50px;
+}
+.box h1{
+    font-weight: lighter;
+}
+.box small{
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.box-p{
+    /* background: blue; */
+    width: 50%;
+    height: fit-content;
+    /* padding-top: 20%;
+    padding-right: 20%; */
+    /* border: 2px solid gold; */
+    /* border-radius: 5px; */
+}
+.box-p p{
+    padding-top: 100px;
+    font-size: medium;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 20%;
+}
+.port{
+    justify-content: center;
+    padding-left: 50%;
+}
